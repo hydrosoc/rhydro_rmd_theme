@@ -18,3 +18,5 @@ You can start working directly in the provided `.Rmd` - it contains the sample p
 ```
 .title-logo-box[![](./your_folder/rhydro_logo_alt.png)]
 ```
+
+This places the logo in a box at the bottom right screen at 175px by 175px.
