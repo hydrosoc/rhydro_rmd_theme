@@ -13,4 +13,8 @@ devtools::install_github("gadenbuie/xaringanthemer")
 
 You can start working directly in the provided `.Rmd` - it contains the sample presentation provided by `xaringan` (knit the presentation, or use the "infinite moon reader" add-in that comes with the package to preview the slides.
 
-**Note**, that you can alternatively just grab the `.css` files from the [static/css](static/css) folder and specify theme in the yaml header of your presentation.
+**Note**, that you can alternatively just grab the `.css` files from the [static/css](static/css) folder and specify theme in the yaml header of your presentation. In that case, make sure to also grab the logo and include it on your title slide via the custom `css` tag:
+
+```
+.title-logo-box[![](./your_folder/rhydro_logo_alt.png)]
+```
